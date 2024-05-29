@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_homeFragment_to_tempFragment" type="id" />
+    <item name="action_HomeFragment_to_tempFragment" type="id" />
+    <item name="action_fragment_home_to_fragment_temp" type="id" />
+</resources>

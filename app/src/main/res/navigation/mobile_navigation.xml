@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.ebalka.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_temp"
+        android:name="com.example.ebalka.ui.temp.tempFragment"
+        android:label="temperature"
+        tools:layout="@layout/fragment_temp" />
+
+    <fragment
+        android:id="@+id/navigation_food"
+        android:name="com.example.ebalka.ui.food.foodFragment"
+        android:label="food"
+        tools:layout="@layout/fragment_food" />
+
+    <fragment
+        android:id="@+id/navigation_light"
+        android:name="com.example.ebalka.ui.light.lightFragment"
+        android:label="lighting"
+        tools:layout="@layout/fragment_light" />
+</navigation>
